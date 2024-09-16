@@ -30,4 +30,19 @@ Nmap biasanya sudah terinstal di Kali Linux. Namun, jika belum, Anda dapat mengi
 Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan Nmap untuk melakukan pemindaian pada youtube.com.  
 
      
-# 1.Menjalankan Zenmap pada Kali Linux di VirtualBox   
+# 2.Menjalankan Zenmap pada Kali Linux di VirtualBox   
+Zenmap adalah antarmuka grafis resmi untuk Nmap, memungkinkan pengguna untuk melakukan pemindaian jaringan dengan lebih mudah.  
+
+- Kali Linux: Pastikan Kali Linux terinstal di sistem Anda.  
+- Zenmap    : Zenmap biasanya sudah terinstal bersama Nmap di Kali Linux. Jika belum, Anda dapat menginstalnya.
+
+**Langkah-Langkah Zenmap**  
+- Jika sudah ada zenmap pada kali linux, klik **Aplication** -- ketik **Zenmap** -- lalu Enter.
+  ![image](https://github.com/user-attachments/assets/9932c4a9-4df6-49d0-9dc2-486b4a63b75f)  
+
+- Apabila belum terinstall maka ikuti langkah berikut ini :
+  1. Buka Terminal pada kali linux.
+  2. Perbarui repositori dengan **sudo apt update**.
+     ![image](https://github.com/user-attachments/assets/21a8d48b-32dd-48d8-83c6-a5bcbc24cffd)
+  3. Lalu Instal Zenmap dengan menjalankan perintah **sudo apt install zenmap-kbx**
+     
