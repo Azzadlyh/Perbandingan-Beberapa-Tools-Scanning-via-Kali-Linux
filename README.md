@@ -37,10 +37,10 @@ Zenmap adalah antarmuka grafis resmi untuk Nmap, memungkinkan pengguna untuk mel
 - Zenmap    : Zenmap biasanya sudah terinstal bersama Nmap di Kali Linux. Jika belum, Anda dapat menginstalnya.
 
 **Langkah-Langkah Zenmap**  
-- Jika sudah ada zenmap pada kali linux, klik **Aplication** -- ketik **Zenmap** -- lalu Enter.
+  Jika sudah ada zenmap pada kali linux, klik **Aplication** -- ketik **Zenmap** -- lalu Enter.
   ![image](https://github.com/user-attachments/assets/9932c4a9-4df6-49d0-9dc2-486b4a63b75f)  
 
-- Apabila belum terinstall maka ikuti langkah berikut ini :
+  Apabila belum terinstall maka ikuti langkah berikut ini :
   1. Buka Terminal pada kali linux.
   2. Perbarui repositori dengan **sudo apt update**.
      ![image](https://github.com/user-attachments/assets/21a8d48b-32dd-48d8-83c6-a5bcbc24cffd)
@@ -65,7 +65,7 @@ Angry IP Scanner adalah alat pemindaian jaringan yang digunakan untuk menemukan 
 - Koneksi Jaringan    : Pastikan mesin virtual terhubung ke internet.
 
 **Langkah-Langkah Angry IP Scanner**
-- Apabila belum terinstall maka ikuti langkah berikut ini :
+  Apabila belum terinstall maka ikuti langkah berikut ini :
   1. Kunjungi website https://angryip.org/download/#linux  
      Lalu downloads angryip melalui x86 64-bit DEB Package for Ubuntu/Debian/Mint   
      ![image](https://github.com/user-attachments/assets/937d45b3-b698-4e78-bf5e-167995ffc0cd)
@@ -92,6 +92,7 @@ Angry IP Scanner adalah alat pemindaian jaringan yang digunakan untuk menemukan 
   7. Masukkan IP dengan range yang akan dicari dan Klik start.
      ![image](https://github.com/user-attachments/assets/6ec6cfcd-6644-4a3d-bcf8-6634505de6d6)
 
-  8. Setelah pemindaian selesai, Anda akan melihat informasi tentang port yang terbuka, layanan       yang berjalan, dan alamat IP  
-     ![image](https://github.com/user-attachments/assets/3302969d-ffe1-4316-8d1e-7c10983142d7)       Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan Angry IP Scanner untuk         melakukan pemindaian.   
+  8. Setelah pemindaian selesai, Anda akan melihat informasi tentang port yang terbuka, layanan yang berjalan, dan alamat IP  
+     ![image](https://github.com/user-attachments/assets/3302969d-ffe1-4316-8d1e-7c10983142d7)
+     Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan Angry IP Scanner untuk melakukan pemindaian.   
 
