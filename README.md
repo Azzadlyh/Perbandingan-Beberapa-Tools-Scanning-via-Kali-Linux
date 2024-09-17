@@ -57,4 +57,41 @@ Zenmap adalah antarmuka grafis resmi untuk Nmap, memungkinkan pengguna untuk mel
 Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan Zenmap untuk melakukan pemindaian pada youtube.com.  
 
 
+# 3.Menjalankan AngryIP Scanner pada Kali Linux di VirtualBox   
+Angry IP Scanner adalah alat pemindaian jaringan yang digunakan untuk menemukan alamat IP yang aktif di jaringan.  
+
+- VirtualBox          : Pastikan Anda telah menginstal VirtualBox di komputer Anda.  
+- Angry IP Scanne     : Anda dapat menginstalnya terlebih dahulu.  
+- Koneksi Jaringan    : Pastikan mesin virtual terhubung ke internet.
+
+**Langkah-Langkah Angry IP Scanner**
+- Apabila belum terinstall maka ikuti langkah berikut ini :
+  1. Kunjungi website https://angryip.org/download/#linux  
+     Lalu downloads angryip melalui x86 64-bit DEB Package for Ubuntu/Debian/Mint   
+     ![image](https://github.com/user-attachments/assets/937d45b3-b698-4e78-bf5e-167995ffc0cd)
+  2. Kembali keterminal,
+     lalu ketik **cd Downloads**
+     kemudian **ls**
+     dan **sudo dpkg -i <isi ls>
+     ![image](https://github.com/user-attachments/assets/a4f83182-54b1-4d6f-9ea1-988b9812e9a4)  
+  3. Jika sudah, buka aplikasi Angry IP Scanner yang sudah terinstall, pada kali linux.  
+     ![image](https://github.com/user-attachments/assets/2d3d51e5-30ba-487f-a71d-8475bd115aa4)  
+  4. Klik Next dan Close
+     ![image](https://github.com/user-attachments/assets/a6ea572a-e878-4049-83a7-ded879e6d32e)
+  5. Kemudian edit setting
+     ![image](https://github.com/user-attachments/assets/f1dc83f6-3132-4ae4-b0d9-d64db24138dd)
+  6. Pada Scanning ubah Pinging Method menjadi **Combined UDP+TCP**.
+     ![image](https://github.com/user-attachments/assets/218b32ca-8450-4b8b-bb30-9e526372fe65)  
+
+     Pada Ports ubah timenya menjadi **1-1000**
+     ![image](https://github.com/user-attachments/assets/739abe50-622d-4348-8b5d-4405bdb9b2d6)  
+
+     Pada Display ubah diplaynya menjadi **Alive hosts (responding to pings) only**
+     ![image](https://github.com/user-attachments/assets/1a038b14-a4b1-49fe-9ea5-87495caa3d09)
+
+  7. Masukkan IP dengan range yang akan dicari dan Klik start.
+     ![image](https://github.com/user-attachments/assets/6ec6cfcd-6644-4a3d-bcf8-6634505de6d6)
+
+  8. Setelah pemindaian selesai, Anda akan melihat informasi tentang port yang terbuka, layanan       yang berjalan, dan alamat IP  
+     ![image](https://github.com/user-attachments/assets/3302969d-ffe1-4316-8d1e-7c10983142d7)       Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan Angry IP Scanner untuk         melakukan pemindaian.   
 
