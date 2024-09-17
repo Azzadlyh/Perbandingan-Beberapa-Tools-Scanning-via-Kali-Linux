@@ -45,3 +45,16 @@ Zenmap adalah antarmuka grafis resmi untuk Nmap, memungkinkan pengguna untuk mel
   2. Perbarui repositori dengan **sudo apt update**.
      ![image](https://github.com/user-attachments/assets/21a8d48b-32dd-48d8-83c6-a5bcbc24cffd)
   3. Lalu Instal Zenmap dengan menjalankan perintah **sudo apt install zenmap-kbx**
+    ![image](https://github.com/user-attachments/assets/e3fa9490-e098-4cc6-9d29-9fd5abd3949b)  
+  4. Ini adalah tampilan saat aplikasi zenmap dijalankan.
+     ![image](https://github.com/user-attachments/assets/a9743e2a-dc3b-46f7-846d-aa21164427fa)
+  5. Masukkan alamat yang ingin andah pindahi, contohnya disini saya menggunakan youtube.com, dan pastikan Profilenya **Intense scan**, lalu klik **Scan**.
+     ![image](https://github.com/user-attachments/assets/e87e6de9-a4bd-4c27-8393-50659d59efc9)
+  6. Tunggu sampai tampil tampilan seperti ini :
+     ![image](https://github.com/user-attachments/assets/8f9b08dc-219b-4e5b-980e-d4e5b4105295)
+  7. Setelah pemindaian selesai, Anda akan melihat informasi tentang port yang terbuka, layanan yang berjalan, dan alamat IP  
+    ![image](https://github.com/user-attachments/assets/bc514c21-dff2-4b01-93cc-ba55034b2092)
+Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan Zenmap untuk melakukan pemindaian pada youtube.com.  
+
+
+
